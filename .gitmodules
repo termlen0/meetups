@@ -1,3 +1,6 @@
 [submodule "01_network_101_ansible"]
 	path = 01_network_101_ansible
 	url = https://github.com/termlen0/01_network_101_ansible.git
+[submodule "02_inventories/media"]
+	path = 02_inventories/media
+	url = https://github.com/termlen0/media.git

@@ -1,0 +1,4 @@
+ansible_username: admin
+ansible_password: pa55w0rd
+snmp_ro: public123
+snmp_rw: private123

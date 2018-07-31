@@ -1,0 +1,19 @@
+[DC:children]
+core
+access
+
+[east-coast:children]
+DC
+atl
+
+[atl]
+10.1.1.2 snmp_ro=atl123 
+192.168.1.2
+    
+[core]
+core1.nw.com 
+core2.nw.com
+    
+[access]
+access1.nw.com 
+access2.nw.com 

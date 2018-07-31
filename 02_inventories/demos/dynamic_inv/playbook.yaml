@@ -1,0 +1,11 @@
+---
+- name: DEMO THE DEBUG MODULE
+  hosts: all
+  gather_facts: no
+  connection: local
+
+  tasks:
+
+    - name: DISPLAY THE INVENTORY HOSTNAME
+      debug:
+        msg: "Current task executing on {{ inventory_hostname }}"
