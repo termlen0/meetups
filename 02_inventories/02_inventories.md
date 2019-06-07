@@ -28,7 +28,7 @@ Twitter/Github : @termlen0
 
 # Introduction
 
-<section data-background-image="images/language.svg"></section>
+<img src="media/images/language.svg" />
 
 
 
