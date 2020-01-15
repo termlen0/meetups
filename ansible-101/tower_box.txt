@@ -1,0 +1,5 @@
+https://www.ansible.com/products/tower/trial
+
+https://www.ansible.com/workshop-license
+
+
