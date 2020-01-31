@@ -41,9 +41,14 @@ Log into the web interface here:
 
 https://10.42.0.42/...­
 
+``` bash
 Username: admin
 Password: <admin_password>
+
+```
+
 9. Download Tower license (https://www.ansible.c...­)
+
 10. Collect license from email and copy/paste to a file
 11. Access Tower web interface and upload license.
 12. You should see Tower dashboard
