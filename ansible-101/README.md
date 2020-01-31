@@ -3,7 +3,12 @@
 3. Create directory meetups
 4. With favorite editor create file 'Vagrantfile'
 5. Place parameters below in Vagrantfile
+
+``` bash
+
+
 ####################
+
 Vagrant.configure("2") do |config|
 
 config.vm.define :controller do |controller|
@@ -26,6 +31,9 @@ end
 
 end
 ################
+
+```
+
 6. Start virtual machines (vagrant up --provider virtualbox)
 7. Ping vms in Vagrantfile to verify connectivity.
 8. ssh to controller (vagrant ssh controller) to collect Tower url and credentials
