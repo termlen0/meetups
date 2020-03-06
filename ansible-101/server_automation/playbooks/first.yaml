@@ -1,0 +1,23 @@
+---
+- name: FIRST PLAYBOOK
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: DISPLAY FACTS
+      debug:
+        msg: "{{ hostvars[inventory_hostname] }}"
+
+    - name: DISPLAY INODE
+      debug:
+        msg: "{{ ansible_mounts[0].inode_total }}"
+      tags: inode
+      
+        
+    - name: INSTALL HTTPD
+      yum:
+        name: httpd
+        state: latest
+
+
+        
